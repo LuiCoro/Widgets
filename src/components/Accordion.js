@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Accordion = () => {
-  return <h1>Accordion</h1>;
+// Props: title, children (content)
+const Accordion = ({items}) => {
+  return <h1>{ items.length }</h1>;
 }
 
 export default Accordion;
